@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            border: 2px solid black;
+            padding: 20px;
+            width: 150px;
+            box-shadow: 5px 5px 10px black;
+            
+        }
+        .cardcontainer{
+            display: flex;
+            justify-content: space-around;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+
+            
+        }
+        a{
+            text-decoration: none;
+        }
+
+        a:link{
+            color: rgb(234, 10, 10);
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:active{
+            color: green;
+
+        }
+        .card:target{
+            background-color: black;
+            color: aliceblue;
+
+
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#HTML">HTML</a>
+        <a href="#CSS">CSS</a>
+        <a href="#JS">JS</a>
+    </nav>
+    <div class="cardcontainer">
+        <div class="card" id="HTML">
+            <h1>HTML</h1>
+            <p> it is used to create the structure of a web page</p>
+        </div>
+        <div class="card" id="CSS">
+            <h1>CSS</h1>
+            <p>adding styles and making the layout more appealing the consumer</p>
+        </div>
+        <div class="card" id="JS">
+            <h1>JS</h1>
+            <p>making a page dynamic </p>
+        </div>
+    </div>
+</body>
+</html>

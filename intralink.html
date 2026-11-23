@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        .title{
+            font-size: larger;
+            text-decoration: solid;
+            
+            color: rgb(234, 22, 22);
+            
+        }
+        article{
+            background-color: black;
+            color: aliceblue;
+            margin-top: 10px;
+        }
+        .hello{
+            padding-left: 10px;
+        }
+        .pk{
+            text-decoration: underline;
+            color: brown;
+        }
+        sup{
+            color: white;
+            background-color: rgb(245, 10, 10);
+            border-radius: 50%;
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        .bi.bi-lightning-fill{
+
+            
+            color:darkgoldenrod;
+            
+        }
+        marquee{
+            margin-top: 10px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        footer{
+            margin-top: 70px;
+            display: flex;
+            background-color: #000;
+            color: #fff;
+        }
+        .ldiv{
+            display: flex;
+
+        }
+        .rdiv{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 2fr 2fr;
+        }
+        .ldiv,.rdiv{
+            padding: 10px;
+        }
+        .social{
+            display: flex;
+            gap: 10px;
+            padding: 0%;
+        }
+        /* .rdiv ul:first-child{
+            
+        } */
+        main{
+            height: 300vh;
+            width: 97vw;
+            background-color: rgb(235, 18, 18);
+            margin-top: 20px;
+            
+        }
+        li:first-child{
+            color: aqua;
+            margin-bottom: 10px;
+        }
+        p:first-child{
+            color: aqua;
+            padding-bottom: 10px;
+        }
+        button{
+            color: #169ca3;
+        }
+        
+   
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title" id="HTML">
+            Shopper
+        </div>
+        <div class="hello">
+            <span class="pk">Home</span>
+            <span>Blog</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Elements</span>
+        </div>
+        <div>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-suit-heart"></span>
+            <span class="bi bi-cart"></span><sup>2</sup>
+        </div>
+    </header>
+    <article>
+        <marquee>
+            <span class="bi bi-lightning-fill"></span>
+            <span>Happy Holidy Deal on Everthing</span>
+            <span class="bi bi-lightning-fill"></span>
+        </marquee>
+    </article>
+    <main >
+        
+    </main>
+    <button class="bi bi-arrow-up">
+        <a href="#HTML">move to top</a>
+    </button>
+
+     <footer>
+        
+        <div class="ldiv">
+            <ul>
+                <li>About </li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>careers</li>
+                <li>Flipkart stories</li>
+                <li>press</li>
+                <li>Corporate information</li>
+            </ul>
+            <ul>
+                <li>About </li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>careers</li>
+
+            </ul>
+            <ul>
+                <li>About </li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>careers</li>
+                <li>Flipkart stories</li>
+
+            </ul>
+            <ul>
+                <li>About </li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>careers</li>
+                <li>Flipkart stories</li>
+                <li>press</li>
+                <li>Corporate information</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="rdiv">
+            <div>
+                <P>Mail us</P>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, vitae exercitationem eaque nisi ipsa nulla pariatur laudantium blanditiis dolor cumque, hic iusto dicta ea praesentium eligendi, quidem voluptatibus ipsum eveniet.</P>
+                
+            </div>
+            <div>
+                <P>registered office Address</P>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum est ipsum quisquam adipisci quo a voluptates laborum ut dolorem iste, distinctio vitae eos voluptatem obcaecati natus deleniti. Porro, mollitia tempora.</p>
+            </div>
+            <div>
+                <p>Social</p>
+                <ul class="social">
+                    <li class="bi bi-instagram"></li>
+                    <li class="bi bi-facebook"></li>
+                    <li class="bi bi-twitter"></li>
+                    <li class="bi bi-youtube"></li>
+                </ul>
+                
+
+            </div>
+            
+            
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
